@@ -1,6 +1,7 @@
 {
   "private": true,
   "devDependencies": {
+    "gulp": "^3.9.1",
     "laravel-mix": "0.*",
     "laravel-elixir": "*"
   }
