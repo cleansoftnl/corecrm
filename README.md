@@ -14,7 +14,7 @@ php artisan key:generate
 php artisan serve
 ```
 ## Usage:
-To enable authentication uncomment the auth middleware in the HomeController to enable the authentication check.
+Uncomment the auth middleware in the HomeController to enable the authentication check.
 
 
 ### Credits:
