@@ -13,6 +13,9 @@ cp .env.example .env
 php artisan key:generate
 php artisan serve
 ```
+## Usage:
+To enable authentication uncomment the auth middleware in the HomeController to enable the authentication check.
+
 
 ### Credits:
 Big thanks to [CoreUI Bootstrap 4 Admin Template](https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template) for making such an awesome bootstrap template.
