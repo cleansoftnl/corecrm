@@ -1,5 +1,5 @@
 # CoreUI-laravel
-This is a very crud port of the [CoreUI](https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template) bootstrap 4 template.
+This is a very crude port of the [CoreUI](https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template) bootstrap 4 template.
 
 ## Installation:
 First clone or download this repository and cd to that directory.
