@@ -11,8 +11,8 @@ var elixir = require('laravel-elixir');
  |
  */
 
-elixir(function(mix) {
-	//Css & fonts copy
+elixir(function (mix) {
+    //Css & fonts copy
     mix.copy('bower_components/fontawesome/fonts', 'public/assets/fonts');
     mix.copy('bower_components/simple-line-icons/fonts', 'public/assets/fonts');
     mix.copy('resources/img', 'public/assets/img');

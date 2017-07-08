@@ -1,22 +1,22 @@
 @extends('layouts.blade.php')
 @section('section')
-<div class="row">
-    <div class="col-lg-6">
-        <div class="card">
-            <div class="card-header">
-                <i class="fa fa-align-justify"></i> Simple Table
-            </div>
-            <div class="card-block">
-                <table class="table">
-                    <thead>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i> Simple Table
+                </div>
+                <div class="card-block">
+                    <table class="table">
+                        <thead>
                         <tr>
                             <th>Username</th>
                             <th>Date registered</th>
                             <th>Role</th>
                             <th>Status</th>
                         </tr>
-                    </thead>
-                    <tbody>
+                        </thead>
+                        <tbody>
                         <tr>
                             <td>Samppa Nori</td>
                             <td>2012/01/01</td>
@@ -57,44 +57,44 @@
                                 <span class="badge badge-success">Active</span>
                             </td>
                         </tr>
-                    </tbody>
-                </table>
-                <ul class="pagination">
-                    <li class="page-item"><a class="page-link" href="#">Prev</a>
-                    </li>
-                    <li class="page-item active">
-                        <a class="page-link" href="#">1</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">2</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">3</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">4</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">Next</a>
-                    </li>
-                </ul>
+                        </tbody>
+                    </table>
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">Prev</a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">4</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-    <!--/.col-->
+        <!--/.col-->
 
-    <div class="col-lg-6">
-        <div class="card">
-            <div class="card-header">
-                <i class="fa fa-align-justify"></i> Striped Table
-            </div>
-            <div class="card-block">
-                <table class="table table-striped">
-                    <thead>
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i> Striped Table
+                </div>
+                <div class="card-block">
+                    <table class="table table-striped">
+                        <thead>
                         <tr>
                             <th>Username</th>
                             <th>Date registered</th>
                             <th>Role</th>
                             <th>Status</th>
                         </tr>
-                    </thead>
-                    <tbody>
+                        </thead>
+                        <tbody>
                         <tr>
                             <td>Yiorgos Avraamu</td>
                             <td>2012/01/01</td>
@@ -135,48 +135,48 @@
                                 <span class="badge badge-success">Active</span>
                             </td>
                         </tr>
-                    </tbody>
-                </table>
-                <ul class="pagination">
-                    <li class="page-item"><a class="page-link" href="#">Prev</a>
-                    </li>
-                    <li class="page-item active">
-                        <a class="page-link" href="#">1</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">2</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">3</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">4</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">Next</a>
-                    </li>
-                </ul>
+                        </tbody>
+                    </table>
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">Prev</a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">4</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
+        <!--/.col-->
     </div>
-    <!--/.col-->
-</div>
-<!--/.row-->
+    <!--/.row-->
 
-<div class="row">
+    <div class="row">
 
-    <div class="col-lg-6">
-        <div class="card">
-            <div class="card-header">
-                <i class="fa fa-align-justify"></i> Condensed Table
-            </div>
-            <div class="card-block">
-                <table class="table table-sm">
-                    <thead>
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i> Condensed Table
+                </div>
+                <div class="card-block">
+                    <table class="table table-sm">
+                        <thead>
                         <tr>
                             <th>Username</th>
                             <th>Date registered</th>
                             <th>Role</th>
                             <th>Status</th>
                         </tr>
-                    </thead>
-                    <tbody>
+                        </thead>
+                        <tbody>
                         <tr>
                             <td>Carwyn Fachtna</td>
                             <td>2012/01/01</td>
@@ -217,44 +217,44 @@
                                 <span class="badge badge-success">Active</span>
                             </td>
                         </tr>
-                    </tbody>
-                </table>
-                <ul class="pagination">
-                    <li class="page-item"><a class="page-link" href="#">Prev</a>
-                    </li>
-                    <li class="page-item active">
-                        <a class="page-link" href="#">1</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">2</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">3</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">4</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">Next</a>
-                    </li>
-                </ul>
+                        </tbody>
+                    </table>
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">Prev</a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">4</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-    <!--/.col-->
+        <!--/.col-->
 
-    <div class="col-lg-6">
-        <div class="card">
-            <div class="card-header">
-                <i class="fa fa-align-justify"></i> Bordered Table
-            </div>
-            <div class="card-block">
-                <table class="table table-bordered">
-                    <thead>
+        <div class="col-lg-6">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i> Bordered Table
+                </div>
+                <div class="card-block">
+                    <table class="table table-bordered">
+                        <thead>
                         <tr>
                             <th>Username</th>
                             <th>Date registered</th>
                             <th>Role</th>
                             <th>Status</th>
                         </tr>
-                    </thead>
-                    <tbody>
+                        </thead>
+                        <tbody>
                         <tr>
                             <td>Pompeius René</td>
                             <td>2012/01/01</td>
@@ -295,48 +295,48 @@
                                 <span class="badge badge-success">Active</span>
                             </td>
                         </tr>
-                    </tbody>
-                </table>
-                <ul class="pagination">
-                    <li class="page-item"><a class="page-link" href="#">Prev</a>
-                    </li>
-                    <li class="page-item active">
-                        <a class="page-link" href="#">1</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">2</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">3</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">4</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">Next</a>
-                    </li>
-                </ul>
+                        </tbody>
+                    </table>
+                    <ul class="pagination">
+                        <li class="page-item"><a class="page-link" href="#">Prev</a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">4</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
+        <!--/.col-->
+
     </div>
-    <!--/.col-->
+    <!--/.row-->
 
-</div>
-<!--/.row-->
-
-<div class="row">
-    <div class="col-lg-12">
-        <div class="card">
-            <div class="card-header">
-                <i class="fa fa-align-justify"></i> Combined All Table
-            </div>
-            <div class="card-block">
-                <table class="table table-bordered table-striped table-sm">
-                    <thead>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fa fa-align-justify"></i> Combined All Table
+                </div>
+                <div class="card-block">
+                    <table class="table table-bordered table-striped table-sm">
+                        <thead>
                         <tr>
                             <th>Username</th>
                             <th>Date registered</th>
                             <th>Role</th>
                             <th>Status</th>
                         </tr>
-                    </thead>
-                    <tbody>
+                        </thead>
+                        <tbody>
                         <tr>
                             <td>Vishnu Serghei</td>
                             <td>2012/01/01</td>
@@ -377,28 +377,28 @@
                                 <span class="badge badge-success">Active</span>
                             </td>
                         </tr>
-                    </tbody>
-                </table>
-                <nav>
-                    <ul class="pagination">
-                        <li class="page-item"><a class="page-link" href="#">Prev</a>
-                        </li>
-                        <li class="page-item active">
-                            <a class="page-link" href="#">1</a>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="#">2</a>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="#">3</a>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="#">4</a>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="#">Next</a>
-                        </li>
-                    </ul>
-                </nav>
+                        </tbody>
+                    </table>
+                    <nav>
+                        <ul class="pagination">
+                            <li class="page-item"><a class="page-link" href="#">Prev</a>
+                            </li>
+                            <li class="page-item active">
+                                <a class="page-link" href="#">1</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">2</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">3</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">4</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
+        <!--/.col-->
     </div>
-    <!--/.col-->
-</div>
 @stop

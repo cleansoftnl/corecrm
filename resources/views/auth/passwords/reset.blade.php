@@ -1,6 +1,6 @@
 @extends('layouts.dashboard')
 @section('body')
-<body class="app flex-row align-items-center">
+    <body class="app flex-row align-items-center">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-6">
@@ -24,31 +24,35 @@
                             </div>
                         @endif
                         @if ($errors->has('password_confirmation'))
-                          <div class="alert alert-succes">
-                              <strong>{{ $errors->first('password_confirmation') }}</strong>
-                          </div>
+                            <div class="alert alert-succes">
+                                <strong>{{ $errors->first('password_confirmation') }}</strong>
+                            </div>
                         @endif
-                        <form class="form-horizontal" role="form" method="POST" action="{{ route('password.request') }}">
-                          {{ csrf_field() }}
-                          <input type="hidden" name="token" value="{{ $token }}">
-                          <div class="input-group mb-3 {{ $errors->has('email') ? ' alert alert-danger' : '' }}">
-                              <span class="input-group-addon">@</span>
-                              <input id="email" type="email" class="form-control" name="email" value="{{ $email or old('email') }}" placeholder="Email" required autofocus>
-                          </div>
+                        <form class="form-horizontal" role="form" method="POST"
+                              action="{{ route('password.request') }}">
+                            {{ csrf_field() }}
+                            <input type="hidden" name="token" value="{{ $token }}">
+                            <div class="input-group mb-3 {{ $errors->has('email') ? ' alert alert-danger' : '' }}">
+                                <span class="input-group-addon">@</span>
+                                <input id="email" type="email" class="form-control" name="email"
+                                       value="{{ $email or old('email') }}" placeholder="Email" required autofocus>
+                            </div>
 
-                          <div class="input-group mb-3">
+                            <div class="input-group mb-3">
                               <span class="input-group-addon"><i class="icon-lock"></i>
                               </span>
-                              <input id="password" type="password" class="form-control" name="password" placeholder="Password" required>
-                          </div>
+                                <input id="password" type="password" class="form-control" name="password"
+                                       placeholder="Password" required>
+                            </div>
 
-                          <div class="input-group mb-4">
+                            <div class="input-group mb-4">
                               <span class="input-group-addon"><i class="icon-lock"></i>
                               </span>
-                              <input id="password-confirm" type="password" class="form-control" name="password_confirmation" placeholder="Repeat password" required>
-                          </div>
+                                <input id="password-confirm" type="password" class="form-control"
+                                       name="password_confirmation" placeholder="Repeat password" required>
+                            </div>
 
-                          <button type="submit" class="btn btn-block btn-success">Update password</button>
+                            <button type="submit" class="btn btn-block btn-success">Update password</button>
                         </form>
                     </div>
                     <div class="card-footer p-4">

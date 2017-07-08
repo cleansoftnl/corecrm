@@ -12,4 +12,9 @@
 */
 Auth::routes();
 
+Route::get('setTheme/{themeName}', function($themeName){
+	Session::put('themeName', $themeName);
+   	return Redirect::to('/');
+});
+
 Route::get('/', 'HomeController@index')->name('home');
