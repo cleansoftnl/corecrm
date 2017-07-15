@@ -1,0 +1,21 @@
+.sidebar-nav .content-profile .icon-list li {
+    display: inline-block;
+    padding: 0;
+    vertical-align: top;
+}
+
+.sidebar-nav .content-profile .icon-list li a {
+    display: block;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    line-height: 23px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+/*
+.app-footer {
+    position:absolute;
+    bottom:0;
+}*/
